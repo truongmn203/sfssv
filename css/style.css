@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	font-family: 'Tahoma';
+}
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.header-top {
+	background-color: #272f54;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 16px;
+}
+.header-main {
+	background-color: #cb7802;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 5px 5px 30px;
+}
+header {
+	margin-bottom: 10px;
+}
+.menu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.menu>li {
+	display: inline-block;/* thuộc tính
+	tạo các khối trên cùng 1 hàng */
+}
+.menu>li>a {
+	text-decoration: none;
+	color: #fff;
+	padding: 0 10px;
+	font-size: 12px;
+}
+.form-search-input {
+	border: 1px solid #cccccc;
+}
+.form-search-btn {
+	background-color: #272f54;
+	border: 1px solid #cccccc;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 11px;
+	height: 20px;
+
+}
+.menu>li>a:hover {
+	
+	
+}
+.news h2.title {
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #272f54;
+	margin: 25px 0;
+} 
+.news .row {
+	display: grid; /* hiển thị dưới dạng lưới*/
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+}
+.news .col {
+	border:1px solid #c2c2c2; 
+	padding: 15px 25px;
+}
+.news h3 {
+	margin: 10px 0px;
+}
+.news h3 a {
+	color: #ad3f00;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.news p {
+	color: #000;
+	font-size: 13px;
+}
+footer {
+	background-color: #272f54;
+	text-align: center;
+	padding: 10px 0;
+	margin-top: 12px; 
+}
+footer span {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.news .row  img:hover {
+	transform: rotate(360deg);
+	/* transform: scale(1.5); */
+	transition: all linear 2s;
+}
